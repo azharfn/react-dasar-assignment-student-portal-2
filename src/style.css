@@ -1,0 +1,111 @@
+*{
+    margin:0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.profile {
+    max-width: 100%;
+    max-height: 100%;
+}
+
+/*IMAGE*/
+.profile {
+    display: flex;
+    grid-template-columns: auto auto auto;
+    justify-content: space-between;
+    align-items: center;
+    gap: 10px;
+}
+.admin {
+    display: grid;
+    grid-template-columns: auto auto;
+    align-items: center;
+}
+img {
+    width: 30px;
+    height: 30px;
+}
+
+html,
+body {
+    height: 100%;
+    width: 100%;
+}
+
+body {
+    display: flex;
+    background-color: aliceblue;
+    justify-content: center;
+    align-items: center;
+}
+
+.container {
+    background-color: white;
+    padding: 20px;
+    height: 100vh;
+}
+
+.form-container {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    margin-bottom: 20px;
+}
+
+.form-label {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    margin-bottom: 10px;
+}
+
+.birth-gender {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin-bottom: 10px;
+}
+
+.birth-gender .form-label {
+    display: flex;
+    flex-direction: column;
+    width: calc(50% - 10px);
+}
+
+.birth-gender .form-input {
+    width: 430px;
+    padding: 5px;
+}
+
+.form-input {
+    width: 100%;
+    padding: 5px;
+    margin-bottom: 10px;
+}
+
+.form-select {
+    width: 100%;
+    max-width: 100%;
+    padding: 5px;
+    margin-bottom: 10px;
+}
+input,
+select {
+    border-radius: 10px;
+    padding: 10px;
+    border: 1px solid rgb(24, 23, 23);
+}
+
+.form-button {
+    padding: 8px 16px;
+    background-color: #559fee;
+    color: #fff;
+    border: none;
+    border-radius: 6px;
+    cursor: pointer;
+}
+
+.form-button:hover {
+    background-color: #224a74;
+}
